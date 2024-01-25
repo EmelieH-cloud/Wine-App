@@ -28,7 +28,15 @@ h2 {
 #wine-info
 {
     color:white; 
+    display: flex; 
+    flex-direction: column;
+    width: 40%;
+    margin-top: 3%;
+    border: 2px solid white; 
+    padding: 1%;
+    background-color: rgba(128, 128, 128, 0.449);
 }
+
 
 h3 
 {
@@ -41,12 +49,6 @@ label, a
     color: white; 
 }
 
-#wine-info
-{
-    background-color: rgba(41, 31, 20, 0.921);
-    width: min-content;
-    min-width: 30%;
-}
 
 .search-container
 {

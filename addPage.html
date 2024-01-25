@@ -13,25 +13,38 @@
     <a href="index.html">Back</a>
     <div id="inputs">
         <h2>Add a new wine</h2>
-        <label>Id:</label>
-        <input id="id-input" type="number"/>
-        <label>Name:</label>
+        <label for="id-input">Id:</label>
+        <input id="id-input" type="number" />
+        <label for="name-input">Name:</label>
         <input id="name-input" type="text" />
-        <label>Color:</label>
+        <label for="color-input">Color:</label>
         <input id="color-input" type="text" />
-        <label>Year:</label>
+        <label for="year-input">Year:</label>
         <input id="year-input" type="number" />
-        <label>Description:</label>
+        <label for="description-input">Description:</label>
         <input id="description-input" type="text" />
         <button id="add-wine-btn">Add</button>
     </div>
     <div class="search-container">
-        <h3>...Or edit an existing wine</h3>
+        <h3>Search</h3>
         <div id="searchbox-container">
             <input type="text" id="searchBox" placeholder="Id"">
             <button id="searchbtn">Search</button>
+            <button id="updateBtn">Update</button>
         </div>
-        <p id="wine-info"></p>
+        <div id="wine-info">
+            <label for="winename">Name:</label>
+            <input type="text" id="winename">
+            
+            <label for="winecolor">Color:</label>
+            <input type="text" id="winecolor">
+            
+            <label for="wineyear">Year:</label>
+            <input type="text" id="wineyear">
+            
+            <label for="winedesc">Description:</label>
+            <input type="text" id="winedesc">
+        </div>
     </div>
  </div>
 <script src="script.js"></script>
