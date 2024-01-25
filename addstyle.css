@@ -1,0 +1,55 @@
+
+html, body
+{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.add-container
+{
+   height: 100vh;
+   width: 100vw;
+   padding: 1%;
+   background-image: url(pexels-bruno-cantuária-774455.jpg);
+    background-size: cover;
+}
+
+h2 {
+    font-family: 'Alegreya';
+    font-size: 2.3rem;
+    color: white; 
+
+}
+
+#wine-info
+{
+    color:white; 
+}
+
+h3 
+{
+    font-family: 'Alegreya';
+    color: white;
+}
+
+label, a
+{
+    color: white; 
+}
+
+#wine-info
+{
+    background-color: rgba(41, 31, 20, 0.921);
+    width: min-content;
+    min-width: 30%;
+}
+
+.search-container
+{
+    border-top: 2px solid white;
+    margin-top: 3%;
+}
